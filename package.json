@@ -1,0 +1,32 @@
+{
+  "name": "azuretemplatebot",
+  "version": "0.0.1",
+  "description": "A bot for deploying azure templates.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmspring/azuretemplatebot.git"
+  },
+  "keywords": [
+    "azure",
+    "bot",
+    "arm",
+    "templates",
+    "deploy"
+  ],
+  "author": "Jim Spring <jmspring@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jmspring/azuretemplatebot/issues"
+  },
+  "homepage": "https://github.com/jmspring/azuretemplatebot#readme",
+  "dependencies": {
+    "azure-arm-resource": "^1.4.5-preview",
+    "botbuilder": "^3.2.3",
+    "node-uuid": "^1.4.7",
+    "restify": "^4.1.1"
+  }
+}
